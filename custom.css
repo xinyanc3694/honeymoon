@@ -20,7 +20,7 @@ p{
 #header{
     background: url('photos/bora-bora.png') no-repeat center;
     display: table;
-    width: 100%;
+    width: 500px;
     height: 500px;
     background-size: cover;
 }
