@@ -28,3 +28,53 @@
     text-align: center;
     font-size: 70px;
 }
+#vtitle{
+    text-align: center;
+    font-size: 50px;
+}
+#rtitle{
+    text-align: center;
+    font-size: 70px;
+}
+#htitle{
+    text-align: center;
+    font-size: 50px;
+}
+
+#hfeature{
+    padding-left: 100px;
+}
+
+
+#hp1, #hp2 ,#hp3 {
+  position: absolute;
+  top: 19px;
+  bottom: 0px;
+  left: 42px;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  height:200px;
+  width:250px;
+  text-align: center;
+ 
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+#hd1:hover #hp1{
+  visibility: visible;
+  opacity: 1;
+}
+
+#hd2:hover #hp2{
+  visibility: visible;
+  opacity: 1;
+}
+
+#hd3:hover #hp3{
+  visibility: visible;
+  opacity: 1;
+}
