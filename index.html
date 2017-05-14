@@ -20,60 +20,58 @@
   <script src="script.js"></script>
 </head>
 
-<body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-   <!--Brand and toggle get grouped for better mobile display -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><span><img src="photos/seashell.png" width="45px" height="45px"></span></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <span><img src="photos/honeymoon1.png" width="45px" height="45px"></span>
+        </a>
       </div>
 
-   <!--Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
-   <!--/.navbar-collapse -->
+      <!-- /.navbar-collapse -->
     </div>
-   <!--/.container-fluid -->
+    <!-- /.container -->
   </nav>
 
-
-
-  <!--<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">-->
-  <!--  <div class="container-fluid">-->
-  <!--    <div class="navbar-header"> <a class="navbar-brand" href="#"><span><img src="photos/seashell.png" width="45px" height="45px"></span></a>-->
-  <!--      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>-->
-  <!--            </button>-->
-  <!--    </div>-->
-  <!--    <div class="collapse navbar-collapse navbar-menubuilder">-->
-  <!--      <ul class="nav navbar-nav navbar-left">-->
-  <!--        <li><a href="#">Action</a></li>-->
-  <!--        <li><a href="#">Another action</a></li>-->
-  <!--        <li><a href="#">Something else here</a></li>-->
-  <!--        <li role="separator" class="divider"></li>-->
-  <!--        <li><a href="#">Separated link</a></li>-->
-
-  <!--        <li class="dropdown">-->
-  <!--          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Info<span class="glyphicon glyphicon-book"> </span>-->
-  <!--  <span class="caret"></span></button>-->
-  <!--          <ul class="dropdown-menu">-->
-  <!--            <li><a href="#time">Time</a></li>-->
-  <!--            <li><a href="#weather">Weather</a></li>-->
-  <!--            <li><a href="#flight">Flight</a></li>-->
-  <!--            <li><a href="#participation">Participation</a></li>-->
-  <!--          </ul>-->
-  <!--        </li>-->
+  <div id="home">
+    <h1 id="title">Honeymoon</h1>
+    <h2 id="slogan1">Slogan1</h2>
+    <h2 id="slogan2">Slogan2</h2>
+  </div>
+<br><br>
+  <div id="gallery">
+    <h1 id="btitle">Bora Bora Gallery</h1>
+    <img src="photos/borabora2.jpg" class="img-rounded"  width="304" height="236">
+    <img src="photos/borabora3.jpg" class="img-circle" width="304" height="236">
+    <br>
+    <br>
+    <img src="photos/borabora4.jpg" class="img-circle" width="304" height="236">
+ <img src="photos/borabora5.jpg" class="img-rounded"  width="304" height="236">
+  </div>
 </body>
 
 </html>
