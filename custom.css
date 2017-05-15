@@ -12,9 +12,9 @@
     font-size: 100px;
 }
 #slogan1{
-    text-align: left;
-    padding-left: 300px;
-    font-size: 70px;
+    text-align: right;
+    padding-left: 275px;
+    font-size: 50px;
 }
 /*#slogan2{*/
 /*    text-align: right;*/
@@ -67,14 +67,20 @@
 #hd1:hover #hp1{
   visibility: visible;
   opacity: 1;
+  text-align: center;
+  padding: 10px;
 }
 
 #hd2:hover #hp2{
   visibility: visible;
   opacity: 1;
+text-align: center;
+  padding: 10px;
 }
 
 #hd3:hover #hp3{
   visibility: visible;
   opacity: 1;
+  text-align: center;
+  padding: 10px;
 }
