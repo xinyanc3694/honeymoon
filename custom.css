@@ -12,8 +12,10 @@
     font-size: 100px;
 }
 #slogan1{
+
     text-align: center;
     font-size: 70px;
+
 }
 
 #gallery{
@@ -62,14 +64,20 @@
 #hd1:hover #hp1{
   visibility: visible;
   opacity: 1;
+  text-align: center;
+  padding: 30px;
 }
 
 #hd2:hover #hp2{
   visibility: visible;
   opacity: 1;
+text-align: center;
+  padding: 10px;
 }
 
 #hd3:hover #hp3{
   visibility: visible;
   opacity: 1;
+  text-align: center;
+  padding: 10px;
 }
