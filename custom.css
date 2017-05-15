@@ -1,35 +1,46 @@
 #home {
-    padding-top: 100px;
+    padding-top: 110px;
     background: url('photos/borabora01.jpg') no-repeat center;
-    height: 700px;
+    height: 350px;
     background-size: cover;
 }
 
 #title {
     text-align: center;
-    font-size: 100px;
+    font-size: 40px;
 }
 
 #slogan1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 30px;
 }
 
-#gallery {
-    text-align: center;
+.img-rounded{
     transition: transform 2s;
 }
 
-#gallery:hover img {
+.img-rounded:hover{
+    transform: rotateY(360deg);
+}
+
+.img-circle{
+    transition: transform 2s;
+}
+
+.img-circle:hover{
+    transform: rotateY(360deg);
+}
+
+#gallery img {
     text-align: center;
-    width: 304px;
-    height: 236px;
-    transition: rotateY(360deg);
+    width: 100%;
+    height: 250px;
+    
 }
 
 #btitle {
     text-align: center;
-    font-size: 70px;
+    font-size: 30px;
 }
 
 #villa {
@@ -38,21 +49,21 @@
 
 #vtitle {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 #rtitle {
     text-align: center;
-    font-size: 70px;
+    font-size: 30px;
 }
 
 #htitle {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 #hfeature {
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 #contactus{
@@ -122,8 +133,8 @@ text-align: center;
     }
     #gallery img {
         text-align: center;
-        width: 304px;
-        height: 236px;
+        width: 324px;
+        height: 246px;
     }
     #vtitle {
         text-align: center;
@@ -159,7 +170,7 @@ text-align: center;
 
 #title{
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
 }
 #slogan1{
 
@@ -196,11 +207,107 @@ text-align: center;
 
 /* medium+ */
 
-@media(min-width:992px) {}
+@media(min-width:992px) {
+       #home{
+    padding-top: 190px;
+    background: url('photos/borabora01.jpg') no-repeat center;
+    height: 600px;
+    background-size: cover;
+    
+}
+
+#title{
+    text-align: center;
+    font-size: 70px;
+}
+#slogan1{
+
+    text-align: center;
+    font-size: 60px;
+
+}
+#btitle{
+    text-align: center;
+    font-size: 60px;
+}
+#gallery img{
+     text-align: center;
+     width: 324px;
+     height: 256px;
+}
+#vtitle{
+    text-align: center;
+    font-size: 50px;
+}
+#rtitle{
+    text-align: center;
+    font-size: 60px;
+}
+#gallery{
+     text-align: center;
+}
+#htitle{
+    text-align: center;
+    font-size: 50px;
+}
+}
 
 
 /* large+ */
 
-@media(min-width:1200px) {}
+@media(min-width:1200px) {
+    #home {
+    padding-top: 100px;
+    background: url('photos/borabora01.jpg') no-repeat center;
+    height: 700px;
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    font-size: 100px;
+}
+
+#slogan1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+
+#gallery img {
+    text-align: center;
+    width: 334px;
+    height: 266px;
+   
+}
+
+#btitle {
+    text-align: center;
+    font-size: 70px;
+}
+
+#villa {
+    background-color: #99ceff;
+}
+
+#vtitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+#rtitle {
+    text-align: center;
+    font-size: 70px;
+}
+
+#htitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+#hfeature {
+    padding-left: 100px;
+}
+}
 
 
