@@ -51,7 +51,9 @@
     padding-left: 100px;
 }
 
-
+#contactus{
+text-align: center;
+}
 
 #hp1, #hp2 ,#hp3 {
   position: absolute;
@@ -91,7 +93,7 @@ text-align: center;
   text-align: center;
   padding: 10px;
 }
-<<<<<<< HEAD
+
 @media only screen and (min-width: 480px) {
   #home{
     padding-top: 150px;
@@ -135,15 +137,53 @@ text-align: center;
     text-align: center;
     font-size: 30px;
 }
-/*#row{ */
-/*    text-align: center;*/
-/*}*/
-/*#hfeature{*/
-/*    padding-left: 200px;*/
+
 }
 
   
 @media(min-width:768px) {
+     #home{
+    padding-top: 190px;
+    background: url('photos/borabora01.jpg') no-repeat center;
+    height: 500px;
+    background-size: cover;
+    
+}
+
+#title{
+    text-align: center;
+    font-size: 70px;
+}
+#slogan1{
+
+    text-align: center;
+    font-size: 50px;
+
+}
+#btitle{
+    text-align: center;
+    font-size: 50px;
+}
+#gallery img{
+     text-align: center;
+     width: 304px;
+     height: 236px;
+}
+#vtitle{
+    text-align: center;
+    font-size: 40px;
+}
+#rtitle{
+    text-align: center;
+    font-size: 50px;
+}
+#gallery{
+     text-align: center;
+}
+#htitle{
+    text-align: center;
+    font-size: 40px;
+}
   
 }
 
@@ -162,7 +202,5 @@ text-align: center;
 }
 
 
-#contactus{
-text-align: center;
-}
+
 
