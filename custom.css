@@ -15,21 +15,15 @@
     font-size: 30px;
 }
 
-.img-rounded{
+#gp{
     transition: transform 2s;
 }
 
-.img-rounded:hover{
+#gp:hover{
     transform: rotateY(360deg);
 }
 
-.img-circle{
-    transition: transform 2s;
-}
 
-.img-circle:hover{
-    transform: rotateY(360deg);
-}
 
 #gallery img {
     text-align: center;
@@ -184,8 +178,8 @@ text-align: center;
 }
 #gallery img{
      text-align: center;
-     width: 304px;
-     height: 236px;
+     width: 334px;
+     height: 256px;
 }
 #vtitle{
     text-align: center;
@@ -232,8 +226,8 @@ text-align: center;
 }
 #gallery img{
      text-align: center;
-     width: 324px;
-     height: 256px;
+     width: 344px;
+     height: 266px;
 }
 #vtitle{
     text-align: center;
@@ -257,7 +251,7 @@ text-align: center;
 
 @media(min-width:1200px) {
     #home {
-    padding-top: 100px;
+    padding-top: 200px;
     background: url('photos/borabora01.jpg') no-repeat center;
     height: 700px;
     background-size: cover;
@@ -276,8 +270,8 @@ text-align: center;
 
 #gallery img {
     text-align: center;
-    width: 334px;
-    height: 266px;
+    width: 354px;
+    height: 276px;
    
 }
 
