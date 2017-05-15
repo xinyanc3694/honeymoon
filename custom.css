@@ -17,6 +17,7 @@
     font-family: Papyrus;
 }
 
+<<<<<<< HEAD
 .img-rounded {
     transition: transform 2s;
 }
@@ -32,6 +33,14 @@
 .img-circle:hover {
     transform: rotateY(360deg);
 }
+#gp{
+    transition: transform 2s;
+}
+
+#gp:hover{
+    transform: rotateY(360deg);
+}
+
 
 #gallery img {
     text-align: center;
@@ -215,10 +224,41 @@ jumbotron{
     }
 }
 
+    text-align: center;
+    font-size: 50px;
+
+}
+#btitle{
+    text-align: center;
+    font-size: 50px;
+}
+#gallery img{
+     text-align: center;
+     width: 334px;
+     height: 256px;
+}
+#vtitle{
+    text-align: center;
+    font-size: 40px;
+}
+#rtitle{
+    text-align: center;
+    font-size: 50px;
+}
+#gallery{
+     text-align: center;
+}
+#htitle{
+    text-align: center;
+    font-size: 40px;
+}
+  
+}
 
 /* medium+ */
 
 @media(min-width:992px) {
+
     #home {
         padding-top: 190px;
         background: url('photos/borabora01.jpg') no-repeat center;
@@ -257,6 +297,49 @@ jumbotron{
         text-align: center;
         font-size: 50px;
     }
+
+       #home{
+    padding-top: 190px;
+    background: url('photos/borabora01.jpg') no-repeat center;
+    height: 600px;
+    background-size: cover;
+    
+}
+
+#title{
+    text-align: center;
+    font-size: 70px;
+}
+#slogan1{
+
+    text-align: center;
+    font-size: 60px;
+
+}
+#btitle{
+    text-align: center;
+    font-size: 60px;
+}
+#gallery img{
+     text-align: center;
+     width: 344px;
+     height: 266px;
+}
+#vtitle{
+    text-align: center;
+    font-size: 50px;
+}
+#rtitle{
+    text-align: center;
+    font-size: 60px;
+}
+#gallery{
+     text-align: center;
+}
+#htitle{
+    text-align: center;
+    font-size: 50px;
+}
 }
 
 
@@ -304,4 +387,56 @@ jumbotron{
     #hfeature {
         padding-left: 100px;
     }
+
+    padding-top: 200px;
+    background: url('photos/borabora01.jpg') no-repeat center;
+    height: 700px;
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    font-size: 100px;
+}
+
+#slogan1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+
+#gallery img {
+    text-align: center;
+    width: 354px;
+    height: 276px;
+   
+}
+
+#btitle {
+    text-align: center;
+    font-size: 70px;
+}
+
+#villa {
+    background-color: #99ceff;
+}
+
+#vtitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+#rtitle {
+    text-align: center;
+    font-size: 70px;
+}
+
+#htitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+#hfeature {
+    padding-left: 100px;
+}
 }
