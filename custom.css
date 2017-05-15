@@ -17,8 +17,7 @@
     font-family: Papyrus;
 }
 
-<<<<<<< HEAD
-.img-rounded {
+<<<<<<< HEAD .img-rounded {
     transition: transform 2s;
 }
 
@@ -33,14 +32,14 @@
 .img-circle:hover {
     transform: rotateY(360deg);
 }
-#gp{
+
+#gp {
     transition: transform 2s;
 }
 
-#gp:hover{
+#gp:hover {
     transform: rotateY(360deg);
 }
-
 
 #gallery img {
     text-align: center;
@@ -75,7 +74,7 @@ h4 {
 }
 
 #villas1 {
-    font-family: Courier New;
+    font-family: Big Caslon;
 }
 
 #htitle {
@@ -85,8 +84,7 @@ h4 {
 
 #hfeature {
     padding-left: 50px;
-     font-family: Papyrus
-    
+    font-family: Papyrus
 }
 
 #contactus {
@@ -110,7 +108,7 @@ h4 {
     text-align: center;
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
-    font-family: Courier New;
+    font-family: Big Caslon;
 }
 
 #hd1:hover #hp1 {
@@ -133,8 +131,9 @@ h4 {
     text-align: center;
     padding: 10px;
 }
-jumbotron{
-    font-family: Courier New;
+
+jumbotron {
+    font-family: Big Caslon;
 }
 
 @media only screen and (min-width: 480px) {
@@ -224,41 +223,39 @@ jumbotron{
     }
 }
 
-    text-align: center;
-    font-size: 50px;
+text-align: center;
+font-size: 50px;
 
 }
-#btitle{
+#btitle {
     text-align: center;
     font-size: 50px;
 }
-#gallery img{
-     text-align: center;
-     width: 334px;
-     height: 256px;
+#gallery img {
+    text-align: center;
+    width: 334px;
+    height: 256px;
 }
-#vtitle{
+#vtitle {
     text-align: center;
     font-size: 40px;
 }
-#rtitle{
+#rtitle {
     text-align: center;
     font-size: 50px;
 }
-#gallery{
-     text-align: center;
+#gallery {
+    text-align: center;
 }
-#htitle{
+#htitle {
     text-align: center;
     font-size: 40px;
 }
-  
+
 }
 
 /* medium+ */
-
 @media(min-width:992px) {
-
     #home {
         padding-top: 190px;
         background: url('photos/borabora01.jpg') no-repeat center;
@@ -297,54 +294,47 @@ jumbotron{
         text-align: center;
         font-size: 50px;
     }
-
-       #home{
-    padding-top: 190px;
-    background: url('photos/borabora01.jpg') no-repeat center;
-    height: 600px;
-    background-size: cover;
-    
+    #home {
+        padding-top: 190px;
+        background: url('photos/borabora01.jpg') no-repeat center;
+        height: 600px;
+        background-size: cover;
+    }
+    #title {
+        text-align: center;
+        font-size: 70px;
+    }
+    #slogan1 {
+        text-align: center;
+        font-size: 60px;
+    }
+    #btitle {
+        text-align: center;
+        font-size: 60px;
+    }
+    #gallery img {
+        text-align: center;
+        width: 344px;
+        height: 266px;
+    }
+    #vtitle {
+        text-align: center;
+        font-size: 50px;
+    }
+    #rtitle {
+        text-align: center;
+        font-size: 60px;
+    }
+    #gallery {
+        text-align: center;
+    }
+    #htitle {
+        text-align: center;
+        font-size: 50px;
+    }
 }
-
-#title{
-    text-align: center;
-    font-size: 70px;
-}
-#slogan1{
-
-    text-align: center;
-    font-size: 60px;
-
-}
-#btitle{
-    text-align: center;
-    font-size: 60px;
-}
-#gallery img{
-     text-align: center;
-     width: 344px;
-     height: 266px;
-}
-#vtitle{
-    text-align: center;
-    font-size: 50px;
-}
-#rtitle{
-    text-align: center;
-    font-size: 60px;
-}
-#gallery{
-     text-align: center;
-}
-#htitle{
-    text-align: center;
-    font-size: 50px;
-}
-}
-
 
 /* large+ */
-
 @media(min-width:1200px) {
     #home {
         padding-top: 100px;
@@ -387,56 +377,45 @@ jumbotron{
     #hfeature {
         padding-left: 100px;
     }
-
     padding-top: 200px;
     background: url('photos/borabora01.jpg') no-repeat center;
     height: 700px;
     background-size: cover;
 }
-
 #title {
     text-align: center;
     font-size: 100px;
 }
-
 #slogan1 {
     text-align: center;
     font-size: 70px;
 }
-
-
 #gallery img {
     text-align: center;
     width: 354px;
     height: 276px;
-   
 }
-
 #btitle {
     text-align: center;
     font-size: 70px;
 }
-
 #villa {
     background-color: #99ceff;
 }
-
 #vtitle {
     text-align: center;
     font-size: 50px;
 }
-
 #rtitle {
     text-align: center;
     font-size: 70px;
 }
-
 #htitle {
     text-align: center;
     font-size: 50px;
 }
-
 #hfeature {
     padding-left: 100px;
 }
+
 }
