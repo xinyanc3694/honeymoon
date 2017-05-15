@@ -1,168 +1,158 @@
-#home{
+#home {
     padding-top: 100px;
     background: url('photos/borabora01.jpg') no-repeat center;
     height: 700px;
     background-size: cover;
 }
 
-#title{
+#title {
     text-align: center;
     font-size: 100px;
 }
-#slogan1{
 
-    text-align: center;
-    font-size: 70px;
-
-}
-
-#gallery{
-     text-align: center;
-}
-
-#gallery img{
-     text-align: center;
-     width: 304px;
-     height: 236px;
-}
-
-#btitle{
+#slogan1 {
     text-align: center;
     font-size: 70px;
 }
 
-#villa{
-    background-color:#99ceff;
-}
-#vtitle{
+#gallery {
     text-align: center;
-    font-size: 50px;
+    transition: transform 2s;
 }
-#rtitle{
+
+#gallery:hover img {
+    text-align: center;
+    width: 304px;
+    height: 236px;
+    transition: rotateY(360deg);
+}
+
+#btitle {
     text-align: center;
     font-size: 70px;
 }
-#htitle{
+
+#villa {
+    background-color: #99ceff;
+}
+
+#vtitle {
     text-align: center;
     font-size: 50px;
 }
 
-#hfeature{
+#rtitle {
+    text-align: center;
+    font-size: 70px;
+}
+
+#htitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+#hfeature {
     padding-left: 100px;
 }
 
-
-
-#hp1, #hp2 ,#hp3 {
-  position: absolute;
-  top: 19px;
-  bottom: 0px;
-  left: 42px;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  height:200px;
-  width:250px;
-  text-align: center;
- 
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-#hd1:hover #hp1{
-  visibility: visible;
-  opacity: 1;
-  text-align: center;
-  padding: 30px;
-}
-
-#hd2:hover #hp2{
-  visibility: visible;
-  opacity: 1;
-text-align: center;
-  padding: 10px;
-}
-
-#hd3:hover #hp3{
-  visibility: visible;
-  opacity: 1;
-  text-align: center;
-  padding: 10px;
-}
-<<<<<<< HEAD
-@media only screen and (min-width: 480px) {
-  #home{
-    padding-top: 150px;
-    background: url('photos/borabora01.jpg') no-repeat center;
-    height: 400px;
-    background-size: cover;
-    
-}
-
-#title{
+#hp1,
+#hp2,
+#hp3 {
+    position: absolute;
+    top: 19px;
+    bottom: 0px;
+    left: 42px;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    height: 200px;
+    width: 250px;
     text-align: center;
-    font-size: 50px;
-}
-#slogan1{
-
-    text-align: center;
-    font-size: 40px;
-
-}
-#btitle{
-    text-align: center;
-    font-size: 40px;
-}
-#gallery img{
-     text-align: center;
-     width: 304px;
-     height: 236px;
-}
-#vtitle{
-    text-align: center;
-    font-size: 30px;
-}
-#rtitle{
-    text-align: center;
-    font-size: 40px;
-}
-#gallery{
-     text-align: center;
-}
-#htitle{
-    text-align: center;
-    font-size: 30px;
-}
-/*#row{ */
-/*    text-align: center;*/
-/*}*/
-/*#hfeature{*/
-/*    padding-left: 200px;*/
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
 }
 
-  
-@media(min-width:768px) {
-  
+#hd1:hover #hp1 {
+    visibility: visible;
+    opacity: 1;
+    text-align: center;
+    padding: 30px;
 }
+
+#hd2:hover #hp2 {
+    visibility: visible;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+#hd3:hover #hp3 {
+    visibility: visible;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+<<<<<<< HEAD @media only screen and (min-width: 480px) {
+    #home {
+        padding-top: 150px;
+        background: url('photos/borabora01.jpg') no-repeat center;
+        height: 400px;
+        background-size: cover;
+    }
+    #title {
+        text-align: center;
+        font-size: 50px;
+    }
+    #slogan1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    #btitle {
+        text-align: center;
+        font-size: 40px;
+    }
+    #gallery img {
+        text-align: center;
+        width: 304px;
+        height: 236px;
+    }
+    #vtitle {
+        text-align: center;
+        font-size: 30px;
+    }
+    #rtitle {
+        text-align: center;
+        font-size: 40px;
+    }
+    #gallery {
+        text-align: center;
+    }
+    #htitle {
+        text-align: center;
+        font-size: 30px;
+    }
+    /*#row{ */
+    /*    text-align: center;*/
+    /*}*/
+    /*#hfeature{*/
+    /*    padding-left: 200px;*/
+}
+
+@media(min-width:768px) {}
 
 
 /* medium+ */
 
-@media(min-width:992px) {
-  
-}
+@media(min-width:992px) {}
 
 
 /* large+ */
 
-@media(min-width:1200px) {
-  
+@media(min-width:1200px) {}
+
+#contactus {
+    text-align: center;
 }
-
-
-#contactus{
-text-align: center;
-}
-
