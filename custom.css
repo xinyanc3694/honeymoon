@@ -91,6 +91,7 @@ text-align: center;
   text-align: center;
   padding: 10px;
 }
+<<<<<<< HEAD
 @media only screen and (min-width: 480px) {
   #home{
     padding-top: 150px;
@@ -159,3 +160,10 @@ text-align: center;
 @media(min-width:1200px) {
   
 }
+
+
+#contactus{
+height: 150px ;
+text-align: center;
+}
+
