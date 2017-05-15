@@ -1,26 +1,21 @@
-
 #home{
     padding-top: 100px;
-    background:  url('photos/borabora1.jpg') no-repeat center;
+    background: url('photos/borabora01.jpg') no-repeat center;
     height: 700px;
     background-size: cover;
-    
-/*linear-gradient(to bottom right, rgba(255, 0, 255, 0.1), rgba(0, 0, 0, 0.75), transparent),*/
+   
+
 }
+
 #title{
     text-align: center;
     font-size: 100px;
 }
 #slogan1{
-    text-align: left;
-    padding-left: 300px;
+    text-align: center;
     font-size: 70px;
 }
-/*#slogan2{*/
-/*    text-align: right;*/
-/*    padding-right: 300px;*/
-/*    font-size: 70px;*/
-/*}*/
+
 #gallery{
      text-align: center;
 }
