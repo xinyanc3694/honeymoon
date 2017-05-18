@@ -255,7 +255,7 @@ jumbotron {
 /* large+ */
 @media(min-width:1200px) {
     #home {
-        padding-top: 100px;
+        padding-top: 190px;
         background: url('photos/borabora01.jpg') no-repeat center;
         height: 700px;
         background-size: cover;
