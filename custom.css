@@ -69,7 +69,7 @@ h4 {
 }
 
 #hfeature {
-    padding-left: 50px;
+  
     font-family: "Papyrus";
 }
 
@@ -95,6 +95,7 @@ h4 {
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
     font-family: "Big Caslon";
+    margin:auto;
 }
 
 #hd1:hover #hp1 {
@@ -121,6 +122,13 @@ h4 {
 jumbotron {
     font-family: "Big Caslon";
 }
+
+ #fp1, #fp2, #fp3{
+        display: block;
+        margin:auto;
+        width:304px;
+        height:236px;
+    }
 
 @media only screen and (min-width: 480px) {
     #home {
@@ -161,11 +169,35 @@ jumbotron {
         text-align: center;
         font-size: 30px;
     }
-    /*#row{ */
-    /*    text-align: center;*/
-    /*}*/
-    /*#hfeature{*/
-    /*    padding-left: 200px;*/
+    #fp1, #fp2, #fp3{
+        display: block;
+        margin:auto;
+        width:400px;
+        height: 300px;
+    }
+    #hp1,
+#hp2,
+#hp3 {
+    position: absolute;
+    top: 19px;
+    bottom: 0px;
+    left: 42px;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    height: 260px;
+    width: 340px;
+    text-align: center;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    font-family: "Big Caslon";
+    margin:auto;
+    font-size: 20px;
+}
+
+   
 }
 
 @media(min-width:768px) {
@@ -207,6 +239,34 @@ jumbotron {
         text-align: center;
         font-size: 40px;
     }
+    #fp1, #fp2, #fp3{
+        display: block;
+        margin:auto;
+        width:400px;
+        height: 300px;
+    }
+    
+    #hp1,
+#hp2,
+#hp3 {
+    position: absolute;
+    top: 19px;
+    bottom: 0px;
+    left: 42px;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    height: 260px;
+    width: 340px;
+    text-align: center;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    font-family: "Big Caslon";
+    margin:auto;
+    font-size: 20px;
+}
 }
 
 
@@ -250,6 +310,34 @@ jumbotron {
         text-align: center;
         font-size: 50px;
     }
+    #fp1, #fp2, #fp3{
+        display: block;
+        margin:auto;
+        width:330px;
+        height: 260px;
+    }
+    
+    #hp1,
+#hp2,
+#hp3 {
+    position: absolute;
+    top: 19px;
+    bottom: 0px;
+    left: 42px;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    height: 220px;
+    width: 300px;
+    text-align: center;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    font-family: "Big Caslon";
+    margin:auto;
+    font-size: 17px;
+}
 }
 
 /* large+ */
@@ -295,5 +383,111 @@ jumbotron {
     #hfeature {
         padding-left: 100px;
     }
+     #fp1, #fp2, #fp3{
+        display: block;
+        margin: auto;
+        width:370px;
+        height: 300px;
+    }
+    
+    #hd1, #hd2{
+        margin-right: px;
+    }
+    #hp1,
+#hp2,
+#hp3 {
+    position: absolute;
+    top: 19px;
+    bottom: 0px;
+    left: 42px;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    height: 220px;
+    width: 300px;
+    text-align: center;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    font-family: "Big Caslon";
+    margin:auto;
+    font-size: 17px;
 }
+}
+
+   
+   @media(min-width:1500px) {
+    #home {
+        padding-top: 190px;
+        background: url('photos/borabora01.jpg') no-repeat center;
+        height: 700px;
+        background-size: cover;
+    }
+    #title {
+        text-align: center;
+        font-size: 100px;
+    }
+    #slogan1 {
+        text-align: center;
+        font-size: 70px;
+    }
+    #gallery img {
+        text-align: center;
+        width: 354px;
+    height: 276px;
+    }
+    #btitle {
+        text-align: center;
+        font-size: 70px;
+    }
+    #villa {
+        background-color: #99ceff;
+    }
+    #vtitle {
+        text-align: center;
+        font-size: 50px;
+    }
+    #rtitle {
+        text-align: center;
+        font-size: 70px;
+    }
+    #htitle {
+        text-align: center;
+        font-size: 50px;
+    }
+    #hfeature {
+        padding-left: 100px;
+    }
+     #fp1, #fp2, #fp3{
+        display: block;
+        margin: auto;
+        width:500px;
+        height: 300px;
+    }
+    
+    
+    #hp1,
+#hp2,
+#hp3 {
+    position: absolute;
+    top: 19px;
+    bottom: 0px;
+    left: 42px;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    height: 220px;
+    width: 300px;
+    text-align: center;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    font-family: "Big Caslon";
+    margin:auto;
+    font-size: 17px;
+}
+}
+
    
